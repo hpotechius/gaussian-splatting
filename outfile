@@ -1,0 +1,18 @@
+Optimizing 
+Output folder: ./output/f2341cbe-e [06/09 12:01:08]
+Tensorboard not available: not logging progress [06/09 12:01:08]
+Reading camera 1/64Reading camera 2/64Reading camera 3/64Reading camera 4/64Reading camera 5/64Reading camera 6/64Reading camera 7/64Reading camera 8/64Reading camera 9/64Reading camera 10/64Reading camera 11/64Reading camera 12/64Reading camera 13/64Reading camera 14/64Reading camera 15/64Reading camera 16/64Reading camera 17/64Reading camera 18/64Reading camera 19/64Reading camera 20/64Reading camera 21/64Reading camera 22/64Reading camera 23/64Reading camera 24/64Reading camera 25/64Reading camera 26/64Reading camera 27/64Reading camera 28/64Reading camera 29/64Reading camera 30/64Reading camera 31/64Reading camera 32/64Reading camera 33/64Reading camera 34/64Reading camera 35/64Reading camera 36/64Reading camera 37/64Reading camera 38/64Reading camera 39/64Reading camera 40/64Reading camera 41/64Reading camera 42/64Reading camera 43/64Reading camera 44/64Reading camera 45/64Reading camera 46/64Reading camera 47/64Reading camera 48/64Reading camera 49/64Reading camera 50/64Reading camera 51/64Reading camera 52/64Reading camera 53/64Reading camera 54/64Reading camera 55/64Reading camera 56/64Reading camera 57/64Reading camera 58/64Reading camera 59/64Reading camera 60/64Reading camera 61/64Reading camera 62/64Reading camera 63/64Reading camera 64/64 [06/09 12:01:08]
+Converting point3d.bin to .ply, will happen only the first time you open the scene. [06/09 12:01:08]
+Loading Training Cameras [06/09 12:01:09]
+Loading Test Cameras [06/09 12:01:38]
+Number of points at initialisation :  58765 [06/09 12:01:38]
+
+[ITER 7000] Evaluating train: L1 0.0386746920645237 PSNR 24.28624496459961 [06/09 12:22:12]
+
+[ITER 7000] Saving Gaussians [06/09 12:22:12]
+
+[ITER 30000] Evaluating train: L1 0.02382904626429081 PSNR 27.926596832275393 [06/09 13:36:52]
+
+[ITER 30000] Saving Gaussians [06/09 13:36:52]
+
+Training complete. [06/09 13:37:22]
