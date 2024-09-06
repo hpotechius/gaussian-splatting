@@ -1,0 +1,6 @@
+torch==1.13
+numpy==1.25.0
+Pillow
+plyfile
+tqdm
+tensorboard
