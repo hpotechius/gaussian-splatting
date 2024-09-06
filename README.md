@@ -1,8 +1,24 @@
 # NOTES
+```
 export TORCH_CUDA_ARCH_LIST="8.0"
 export CUDA_HOME=/cluster/nvidia/cuda/11.7
 export PATH=$CUDA_HOME/bin:$PATH
 export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+```
+
+In SceneDebugView.cpp of the SIBR_viewers change 
+
+```
+getMeshData("scene cam").setTransformation(scaled.matrix()); 
+
+```
+to
+
+```
+sibr::Matrix4f tempMatrix = scaled.matrix();
+getMeshData("scene cam").setTransformation(tempMatrix);
+```
+This stores the result of scaled.matrix() in a local variable (an lvalue) before passing it to setTransformation. This ensures that you're passing an lvalue, which can be bound to a non-const reference.
 
 # 3D Gaussian Splatting for Real-Time Radiance Field Rendering
 Bernhard Kerbl*, Georgios Kopanas*, Thomas Leimkühler, George Drettakis (* indicates equal contribution)<br>
